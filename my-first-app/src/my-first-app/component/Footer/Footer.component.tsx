@@ -13,7 +13,7 @@ import {
 // Extend the original class (SourceFooter)
 // By subclassing it, we can change some of its behavior
 /** @namespace myFirstApp/Component/Footer/Component/FooterComponent */
-class FooterComponent extends SourceFooter {
+export class FooterComponent extends SourceFooter {
 
     // This is the function responsible for rendering copyright
     // We want to change it, so we re-define in this subclass
