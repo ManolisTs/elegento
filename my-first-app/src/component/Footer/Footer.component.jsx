@@ -6,7 +6,7 @@ import ContentWrapper from 'Component/ContentWrapper';
 // Note that we are using the "SourceComponent" alias in the import path –
 // This tells Scandi that we want to get the original Footer component
 import {
-    FooterComponent as SourceFooter
+    Footer as SourceFooter
 } from 'SourceComponent/Footer/Footer.component';
 
 
