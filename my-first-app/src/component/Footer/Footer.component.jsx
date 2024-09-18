@@ -6,14 +6,14 @@ import ContentWrapper from 'Component/ContentWrapper';
 // Note that we are using the "SourceComponent" alias in the import path –
 // This tells Scandi that we want to get the original Footer component
 import {
-    Footer as SourceFooter
+    FooterComponent as SourceFooter
 } from 'SourceComponent/Footer/Footer.component';
 
 
 // Extend the original class (SourceFooter)
 // By subclassing it, we can change some of its behavior
 /** @namespace myFirstApp/Component/Footer/Component/FooterComponent */
-export class FooterComponent extends SourceFooter {
+class FooterComponent extends SourceFooter {
 
     // This is the function responsible for rendering copyright
     // We want to change it, so we re-define in this subclass
