@@ -1,6 +1,7 @@
 import { HeaderComponent as SourceHeader } from 'SourceComponent/Header/Header.component';
 
-class HeaderComponent extends SourceHeader {
+/** @namespace myFirstApp/Component/Header/Component */
+export class HeaderComponent extends SourceHeader {
     renderLogoImage() {
         return 'Hello';
     }
