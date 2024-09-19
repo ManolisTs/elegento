@@ -28,7 +28,7 @@
         },
         "parentTheme": "@scandipwa/scandipwa",
         "extensions": {
-            "@scandipwa/ts-server-plugin": true
+            "@scandipwa/ts-server-plugin": false
         }
     },
     "scripts": {
