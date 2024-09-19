@@ -1,7 +1,7 @@
 import ContentWrapper from 'Component/ContentWrapper';
 
 import {
-    FooterComponent as SourceFooterComponent,
+    Footer as SourceFooter,
 } from 'SourceComponent/Footer/Footer.component';
 
 /** @namespace myFirstApp/Component/Footer/Component/FooterComponent */
