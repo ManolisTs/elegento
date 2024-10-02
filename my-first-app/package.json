@@ -32,7 +32,7 @@
         }
     },
     "scripts": {
-        "start": "DANGEROUSLY_DISABLE_HOST_CHECK=true HOST=0.0.0.0 PORT=3000 scandipwa-scripts start",
+        "start": "scandipwa-scripts start",
         "build": "scandipwa-scripts build"
     },
     "browserslist": {
